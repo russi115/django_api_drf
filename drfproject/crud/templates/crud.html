@@ -1,25 +1,32 @@
-<navbar >
-    <h1>create</h1>
-    <h1>search</h1>
-    <h1>update</h1>
-    <h1>delete</h1>
-</navbar>
-<h1>crud</h1>
+<div>
+    <form action="">
+        <input placeholder="name" type="name">
+        <input placeholder="code" type="code">
+        <input placeholder="valor" type="valor">
+        <input placeholder="usado" type="usado">
+    </form>
+
+    <div style="float: right; margin-top: 50px; margin-RIGHT: 200px;">
+        <h1>data</h1>
+    </div>
+</div>
 
 <style>
-
-navbar {
-  display: flex;
-  justify-content: space-around;
-  background-color: #28567e;
-  color: white;
-  font-size: 24pt;
-  height: 50px;
-  width: 100%;
-}
-navbar h1 {
-  margin-top: 10%;
-  margin-left: 10%;
-}
-
+    body{
+        background-color: #28567e;
+        color: white;
+    }
+    form{ 
+        position: fixed;
+        margin-top: 50px;
+        margin-left: 20px;
+        max-width: 500px;
+        
+    }
+    form input{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
 </style>
