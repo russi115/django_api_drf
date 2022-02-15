@@ -1,0 +1,43 @@
+<form style="text-decoration-color: #A6A6A6;">
+    <div style="position: fixed;
+    top: 35%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -100px;
+    border-style: solid;
+    background-color: #28567e;">
+        <h1 style="text-align: center;">What do you want?</h1>
+        <div style="
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 2em;">
+            <a href="{% url 'vticket' %}">
+                <h1 style="text-align: center;"  >Validate ticket</h1>
+            </a>
+            <a href="{% url 'crud' %}">
+                <h1 style="text-align: center;"  >CRUD ticket</h1>
+            </a>
+            
+        </div>
+    </div>
+</form>
+
+<style>
+    body{
+        background-color: #28567e;
+        color: white;
+    }
+    a:link, a:visited {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:  20px;
+    }
+
+    a:hover, a:active {
+    background-color: #3570a3;
+    border-radius: 5%;
+    }
+</style>
